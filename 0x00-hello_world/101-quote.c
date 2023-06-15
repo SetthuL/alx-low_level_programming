@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unixstd.h>
+#include <unistd.h>
 /**
  * main - A C program that prints wit fput
  * Return: 1 (The program runs a success)
