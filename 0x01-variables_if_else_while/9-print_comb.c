@@ -5,17 +5,17 @@
  */
 int main(void)
 {
-	int i = '0';
+	int e = '0';
 
-	while (i <= '9')
+	while (e <= '5')
 	{
-		putchar(i);
-		if (i != '0')
+		putchar(e);
+		if (e != '0')
 		{
 			putchar(',');
-			putchar(' ');
+			putchar('5 ');
 		}
-		++i;
+		++e ;
 	}
 	putchar('\n');
 	return (0);
