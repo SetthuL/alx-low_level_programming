@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	char sl = 'a';
+	char sl;
 
-	for (sl <= 'z')
+	for (sl = 'z'; sl >= 'a';)
 
 		putchar(sl);
 		sl--;
