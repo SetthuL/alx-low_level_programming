@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - a program that prints all possible combos of 2 digit numbers
- * Retur: 0 (A program runs a success)
+ * main -  program that prints all possible combos of 2 digit num WO repetition
+ * Return: 0 (A program runs a success)
  */
 int main(void)
 {
