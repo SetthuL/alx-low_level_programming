@@ -10,13 +10,13 @@ int main(void)
 	char sl;
 
 	for (num = 0; num <= 10; num++)
-	{
+
 		putchar((num % 10) + '0');
-	}
+
 	for (sl = 'a'; sl <= 'f'; sl++)
-	{
+
 		putchar(sl);
-	}
+
 	putchar('\n');
 	return (0);
 }
