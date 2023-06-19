@@ -13,9 +13,9 @@ int main(void)
 		if (e != '0')
 		{
 			putchar(',');
-			putchar('5 ');
+			putchar(' ');
 		}
-		++e ;
+		++e;
 	}
 	putchar('\n');
 	return (0);
