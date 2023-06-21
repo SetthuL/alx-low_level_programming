@@ -2,7 +2,7 @@
 /**
  * print_sign - A function that prints a sign number
  * @n: The number has to be checked
- * Retun: 1 if n is >0, -1 if n is < 0 and 0 if 0 == 0
+ * Retun: 1 for a positive number -1 for negative otherwise 0
  */
 int print_sign(int n)
 {
