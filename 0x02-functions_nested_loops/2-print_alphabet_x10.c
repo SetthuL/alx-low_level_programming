@@ -18,6 +18,6 @@ void print_alphabet_x10(void)
 			_putchar(sl);
 		}
 			_putchar('\n');
-			sl++;
+			i++;
 	}
 }
