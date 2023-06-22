@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 /**
  * main - A program that causes infinite loops
  * Return: 0 (A program runs a success)
