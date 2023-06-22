@@ -1,22 +1,24 @@
-#include "stdio.h"
+#include <stdio.h>
+
 /**
- * main - A program that causes infinite loops
- * Return: 0 (A program runs a success)
- */
+* main - causes an infinite loop
+* Return: 0
+*/
 
 int main(void)
 {
-	int i;
+        int i;
 
-	printf("infinite loop incoming :(\n");
+        printf("Infinite loop incoming :(\n");
 
-	i = 0;
-	/*
+        i = 0;
+
+	/**
 	 * while (i < 10)
 	 * {
-	 * _putchar(i);
+	 * putchar(i);
 	 * }
 	 */
-	printf("infinite loop avoided! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n");
 	return (0);
 }
