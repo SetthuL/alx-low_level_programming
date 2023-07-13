@@ -39,6 +39,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (pointer == NULL)
 		return (NULL);
 
-	_calloc(pointer, (nmemb * size));
+	_memset(pointer, (nmemb * size));
 	return (pointer);
 }
