@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stddef.h>
+
 /**
 * pop_listint - A function that deletes the head node of a linked list
 * @head: pointer to the first element in the linked list
@@ -10,7 +12,9 @@ int pop_listint(listint_t **head)
 {
 	listint_t *temp;
 
-	int delete = 0;
+	int delete;
+
+	delete = 0;
 
 	if (!head || !*head)
 	{
