@@ -14,10 +14,10 @@ int clear_bit(unsigned long int *n, unsigned int index)
 
 	unsigned long int mask;
 
-	clearoff = 1UL << index;
+	mask = 1UL << index;
 
-	if (*n & clearoff)
-		*n ^= clearoff;
+	if (*n & mask)
+		*n ^= mask;
 
 	return (1);
 }
